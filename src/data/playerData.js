@@ -38,6 +38,4 @@ const playerData = {
   }
 }
 
-const playerDataArray = Object.values(playerData);
-
-export default playerDataArray;
+export default playerData;
