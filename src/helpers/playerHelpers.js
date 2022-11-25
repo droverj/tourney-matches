@@ -7,7 +7,7 @@ export const preparePlayerData = (playerData) => {
   return Object.values(playerData);
 };
 
-export const addWinsToPlayer = (playerDataArray, matchData) => {
+export const addWinsToPlayers = (playerDataArray, matchData) => {
   return playerDataArray.map(player => {
     // Calculating the # of wins in the matchData
     const currentWins = matchData.reduce((accumulator, match) => {
