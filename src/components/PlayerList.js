@@ -10,3 +10,5 @@ function PlayerList() {
     </section>
   );
 }
+
+export default PlayerList;
